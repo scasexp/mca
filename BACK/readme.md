@@ -1,6 +1,6 @@
 # # Backend dev technical test
 
-This aplication is a Spring Boot app that serve the main rest API in http://localhost:5001/swagger-ui.html
+This aplication is a Spring Boot App that serve the main rest API in http://localhost:5001/swagger-ui.html
 
 ## Requirements
 
