@@ -1,6 +1,6 @@
 # # Backend dev technical test
 
-This aplication is a Spring Boot aplication that serve the main rest API in http://localhost:5001/swagger-ui.html
+This aplication is a Spring Boot app that serve the main rest API in http://localhost:5001/swagger-ui.html
 
 ## Requirements
 
@@ -15,7 +15,7 @@ For building and running the application you need:
 ```shell
 docker build -t test-mca .
 
-docker run -dp 3000:3000 test-mca
+docker run -dp 5000:5000 test-mca
 ```
 
 ## Running the application locally
