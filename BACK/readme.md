@@ -1,14 +1,22 @@
 # # Backend dev technical test
 
-[Spring Boot](http://projects.spring.io/spring-boot/) app.
+This aplication is a Spring Boot aplication that serve the main rest API in http://localhost:5001/swagger-ui.html
 
 ## Requirements
 
 For building and running the application you need:
 
-- [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-- [Maven 3](https://maven.apache.org)
+- JDK 1.11
+- Maven 3
 
+
+## Running the application in Docker
+
+```shell
+docker build -t test-mca .
+
+docker run -dp 3000:3000 test-mca
+```
 
 ## Running the application locally
 
@@ -21,3 +29,9 @@ mvnw spring-boot:run
 ```shell
 mvnw test
 ```
+
+## Results K6
+
+The results of the k6 test environment
+
+![alt text](imgs/Results-K6.PNG)
